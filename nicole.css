@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url(pastel-aesthetic-pictures-7m6fad3x90p3x6nz.jpg);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    
+}
+
+.container {
+    display: flex;
+    max-width: 1300px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left-column {
+    flex: 1;
+    padding: 40px;
+    background-color: #faf3e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #7f4a3a;
+}
+
+.left-column h1 {
+    font-size: 2.5em;
+    color: #593c3c;
+    margin-bottom: 20px;
+}
+
+.left-column h2 {
+    font-size: 1.5em;
+    color: #a6614a;
+    margin-bottom: 40px;
+}
+
+.personal-info p, .hobbies p, .academic-achievements ul {
+    margin-bottom: 20px;
+}
+
+.academic-achievements ul {
+    list-style-type: none;
+}
+
+.academic-achievements ul li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.academic-achievements ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #a6614a;
+}
+
+.right-column {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff6ec;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.related-images img {
+    margin-right: 10px;
+}
+
+.related-images h3 {
+    font-size: 1.8em;
+    color: #a6614a;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+}
+.next-button {
+    display: inline-block;             
+    padding: 12px 24px;               
+    font-size: 1.2em;                  
+    color: #fff;                      
+    background-color: #a6614a;       
+    border: none;                    
+    border-radius: 5px;               
+    text-decoration: none;             
+    transition: background-color 0.3s;
+    margin: 20px 0;                   
+    text-align: center;              
+}
+.next-button:hover {
+    background-color: #593c3c;         
+}
+
+.next-button:active {
+    transform: scale(0.95);            
+}
