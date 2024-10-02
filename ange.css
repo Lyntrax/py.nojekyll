@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(angebackround.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.profile-container {
+    background-color: rgb(252, 252, 252);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(233, 16, 142, 0.2);
+    text-align: center;
+    max-width: 1200px; 
+    width: 100%; 
+    margin-top: 20px;
+}
+
+h1 {
+    background-color: #ffffff;
+    font-size: 2.2em; 
+    margin-bottom: 10px; 
+    overflow: visible; 
+    white-space: normal; 
+    color: #000; 
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    margin-bottom: 5px; 
+}
+
+.profile-info {
+    margin-bottom: 10px; 
+    background-color: #ffffff;
+    font-size: 1.1em; 
+}
+
+.section-title {
+    font-weight: 500;
+    color: #444;
+    margin-top: 15px; 
+    font-size: 1.3em; 
+}
+
+.section-content {
+    font-weight: 300;
+    line-height: 1.6; 
+    font-size: 1em; 
+}
+img {
+    margin: 10px; 
+    border-radius: 8px;
+    transition: transform 0.2s;
+    width: 220px; 
+    height: auto; 
+}
+
+img:hover {
+    transform: scale(1.1); 
+}
+
+.next-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    background-color: #f88aef;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}

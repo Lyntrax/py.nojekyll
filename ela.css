@@ -1,0 +1,132 @@
+
+
+body {
+    background-image: url(elaela.webp);
+    font-family: 'Lato', sans-serif;
+    color: rgb(33, 37, 41);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.profile-container {
+    background: #adbbc288;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 1300px;
+    width: 90%;
+    text-align: center; 
+    animation: fadeIn 1.5s ease;
+}
+
+h1 {
+    font-size: 3em; 
+    font-weight: 700;
+    color: rgb(33, 150, 243);
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+.profile-image {
+    width: 180px; 
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid rgb(204, 229, 255);
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.profile-info {
+    font-size: 1.3em; 
+    text-align: center; 
+    margin-bottom: 30px;
+    color: rgb(77, 77, 77);
+}
+
+.profile-info strong {
+    color: rgb(33, 150, 243);
+    font-weight: 600;
+}
+
+.section-title {
+    font-size: 1.8em; 
+    font-weight: 600;
+    color: rgb(33, 150, 243);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.section-content {
+    font-size: 1.2em; 
+    color: rgb(33, 37, 41);
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+.section-content img {
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.section-content img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        width: 95%;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .profile-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .section-title {
+        font-size: 1.5em;
+    }
+
+    .section-content img {
+        width: 45%;
+        height: auto;
+    }
+}
+.next-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}

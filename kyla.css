@@ -1,0 +1,72 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('heee.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #020202; 
+}
+
+.profile-container {
+    max-width: 1300px;
+    margin: 50px auto; 
+    padding: 30px; 
+    background-image: url(ae.jfif);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+}
+
+h1, .section-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; 
+    margin-bottom: 30px; 
+}
+
+.profile-info { 
+    margin-bottom: 30px; 
+}
+.section-content {
+    font-size: 1.5em; 
+    line-height: 1.6; 
+}
+
+.profile-info img {
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    max-width: 100%;
+    height: auto; 
+}
+
+.profile-info img:hover {
+    transform: scale(1.1); 
+}
+
+
+@media (max-width: 600px) {
+    .profile-container {
+        padding: 20px; 
+    }
+
+    h1, .section-title {
+        font-size: 2.0em; /
+    }
+
+    .section-content {
+        font-size: 1.8em; 
+    }
+}
