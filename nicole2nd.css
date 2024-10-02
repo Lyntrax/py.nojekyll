@@ -1,7 +1,7 @@
 body {
     font-family: 'Creepster', cursive, sans-serif;
-    background-image: url(reddd.png);
-    color: #d6d6d6;
+    background-image: url(pastel-aesthetic-pictures-7m6fad3x90p3x6nz.jpg);
+    color: #2b2b2b; 
     margin: 0;
     padding: 0;
     background-size: cover; 
@@ -14,15 +14,15 @@ body {
     max-width: 1400px;
     margin: 40px auto;
     padding: 20px;
-    background: #2b2b2b;
-    border: 2px solid #6a0d0d;
-    box-shadow: 0 0 15px 5px #000;
+    background-color: #faf3e6;
+    border: 2px solid #ff6b6b;
+    box-shadow: 0 0 15px 5px #000; 
 }
 
 .header {
     text-align: center;
     font-size: 1.2em;
-    color: #ff6b6b;
+    color: #d5006d; 
 }
 
 .profile-header {
@@ -34,16 +34,16 @@ body {
     width: 150px; 
     height: 150px; 
     border-radius: 50%; 
-    border: 2px solid #ff6b6b; 
+    border: 2px solid #d5006d; 
 }
 
 h2 {
     font-size: 3.0em; 
-    color: #f9a825; 
+    color: #ff4081;
 }
 
 h3 {
-    color: #ffcc00;
+    color: #ff80ab; 
     font-size: 2em; 
 }
 
@@ -55,7 +55,7 @@ footer {
     margin-top: 30px;
     text-align: center;
     font-size: 1.2em;
-    color: #ff6b6b;
+    color: #d5006d; 
 }
 
 .back-button {
