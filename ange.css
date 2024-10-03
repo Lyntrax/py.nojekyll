@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(machamo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4a4a4a;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #d4e1b3;
+}
+
+.profile-info, .hobbies-container, .achievements-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #6a994e;
+    margin-bottom: 10px;
+}
+
+h2 + p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.image-gallery {
+    margin: 20px 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.interest-image {
+    margin: 0 10px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.interest-image:hover {
+    transform: scale(1.05);
+}
+
+.next-button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-color: #6a994e;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #4a7c36;
+}
